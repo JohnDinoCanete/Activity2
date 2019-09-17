@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>Add Data</title>
+	
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Kanit:900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<style>
+		body{
+			
+			font-family: 'Kanit', sans-serif;
+			text-align: center;
+		}
+	</style>
+		<nav class="navbar navbar-expand-sm bg-light">
+	<ul class="navbar-nav">
+		<li class="nav-item">
+		  <a class="nav-link" href="index.php" style="color: brown">Home</a>
+		</li>
+	</ul>
+	</nav>
+	<br/><br/>
+	<center>
+	<form action="add.php" method="post" name="form1">
+		<table width="25%" border="0">
+			<tr> 
+				<td>Student ID</td>
+				<td><input type="text" placeholder="Enter Student ID" name="studentid" required ></td>
+			</tr>
+			<tr> 
+				<td>First Name</td>
+				<td><input type="text" placeholder="Enter First Name" name="fname" required></td>
+			</tr>
+			<tr> 
+				<td>Last Name</td>
+				<td><input type="text" placeholder="Enter Last Name" name="lname" required></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td><input type="text" placeholder="Enter Gender" name="gender" required></td>
+			</tr>
+			<tr> 
+				<td>Birth Date</td>
+				<td><input type="text" placeholder="Enter Birth Date" name="birthdate" required></td>
+			</tr>
+			<tr> 
+				<td>Address</td>
+				<td><input type="text" placeholder="Enter Address" name="address" required></td>
+			</tr>
+			<tr> 
+				<td>Contact</td>
+				<td><input type="text" placeholder="Enter Contact" name="contact" required></td>
+			</tr>
+			<tr> 
+				<td><input type="submit" name="Submit" value="Add"> </td>
+				
+			</tr>
+		</table>
+		
+	</form>
+</center>
+</body>
+</html>
+
